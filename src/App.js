@@ -6,16 +6,20 @@ function App() {
     <div className="App">
       <div className="header">
         <video className='header-video' src={headerVideo} muted autoPlay loop></video>
-        <h1 className="main-text">InitiaRe</h1>
-        <div className="clock-wrap">
-          <div className="hour-mark"></div>
-          <div className="hour-mark"></div>
-          <div className="hour-mark"></div>
-          <div className="hour-mark"></div>
-          <div className="hour-mark"></div>
-          <div className="hour-mark"></div>
-          <div className="long-hand"></div>
-          <div className="short-hand"></div>
+        <div className='main-text-wrap'>
+          <h1 className="main-text">InitiaRe</h1>
+        </div>
+        <div className='clock-wrap-wrap'>
+          <div className="clock-wrap">
+            <div className="hour-mark"></div>
+            <div className="hour-mark"></div>
+            <div className="hour-mark"></div>
+            <div className="hour-mark"></div>
+            <div className="hour-mark"></div>
+            <div className="hour-mark"></div>
+            <div className="long-hand"></div>
+            <div className="short-hand"></div>
+          </div>
         </div>
       </div>
     </div>
